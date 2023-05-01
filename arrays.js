@@ -67,6 +67,8 @@ console.log(checkItem('Facebook'));
 
 
 //Filter out companies which have more than one 'o' without the filter method
+for(i of itCompanies)
+   
 
 
 //Sort the array using sort() method
@@ -94,7 +96,7 @@ itCompanies.splice(mid,1)
 console.log(itCompanies);
 
 //Remove the last IT company from the array
-itCompanies.slice(itCompanies.splice(-1,1))
+itCompanies.pop()
 console.log(itCompanies);
 
 //Remove all IT companies
